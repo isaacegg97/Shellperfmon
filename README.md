@@ -9,6 +9,8 @@ Because installing a 300MB agent just to watch your RAM shrivel is overrated.
 - Detects your OS and grabs system stats accordingly.
 - Prints memory, CPU utilization, disk usage, logged-in users, and the top five memory hogs.
 - Outputs plain JSON for piping into whatever tool you hold dearest.
+- First class support for extensibility
+- Can be run via cron or managed by your respective init system; fed upstream by a tool such as curl
 
 Current JSON SCHEMA (from lines 60–70 of `main.sh`):
 
