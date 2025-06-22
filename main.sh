@@ -1,5 +1,4 @@
 #!/bin/which bash
-
 # Detect OS type
 os_type=$(uname)
 
